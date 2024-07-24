@@ -1,12 +1,12 @@
 <style>
- .RedRound{
-  background-color: rgb(200, 0, 0);
-  color: white;
-  border: none;
-  height: 35px;
-  width: 100px;
-  border-radius: 17.5px;
-  cursor: pointer;  
+ .Header{
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+ .SubTest{
+  font-style: initial;
+  font-family:Arial, Helvetica, sans-serif;
  }
 
  .LinkButton{
@@ -16,26 +16,39 @@
   color: black;
   border-style: solid;
   cursor: pointer;
-  height: 35px;
+  height: 36px;
   width: 100px;
-  border-radius: 17.5px;
-  margin-right: 17.5px;
+  border-radius: 18px;
+  transition: opacity 0.2s, box-shadow 0.2s, width 0.2s;
+ }
+
+ .LinkButton:hover{
+  background-color: black;
+  color: white;
+  width: 125px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+ }
+
+ .LinkButton:active{
+  opacity: 0.6;
  }
 </style>
 
-<h1>Rocco Michel's WEBSITE</h1>
+<h1 class="Header">Rocco Michel's WEBSITE</h1>
 
-<h2>LINKS:</h2>
+<h2 class="SubTest">LINKS:</h2>
+
 
 <a href="https://github.com/RoccoMichel" target="_blank">
-  <button class="LinkButton">GitHub</button></a>
-
+  <button class="LinkButton">GitHub</button>
+</a>
+<p></p>
 <a href="https://www.youtube.com/@Ran_Dum" target="_blank">
   <button class="LinkButton">YouTube</button>
 </a>
-
+<p></p>
 <a href="https://unassigned-studios.itch.io/" target="_blank">
   <button class="LinkButton">Itch.io</button>
 </a>
 
-<p>Learning how to make a website since 2024</p>
+<p class="SubTest">Learning how to make a website since 2024</p>
