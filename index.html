@@ -16,16 +16,24 @@
   color: black;
   border-style: solid;
   cursor: pointer;
-  height: 36px;
-  width: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
   border-radius: 18px;
-  transition: opacity 0.2s, box-shadow 0.2s, width 0.2s;
+  transition: opacity 0.2s, box-shadow 0.2s, padding-left 0.2s, padding-right 0.2s, margin-left 0.2s, margin-right 0.2s;
  }
 
  .LinkButton:hover{
   background-color: black;
   color: white;
-  width: 125px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 35px;
+  padding-right: 35px;  
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
  }
 
@@ -34,21 +42,27 @@
  }
 </style>
 
-<h1 class="Header">Rocco Michel's WEBSITE</h1>
+<head>
+  <h1 class="Header">Rocco Michel's WEBSITE</h1>
+</head>
+
+<body class="SubTest">
+  <p>It is with great honor to present my own personal website, currently there isn't much here.</p>
+  <p>I'm am using this to practice my web designing skills (mostly just html) for fun.</p>
+
 
 <h2 class="SubTest">LINKS:</h2>
 
-
-<a href="https://github.com/RoccoMichel" target="_blank">
-  <button class="LinkButton">GitHub</button>
-</a>
-<p></p>
+<p>
+ <a href="https://github.com/RoccoMichel" target="_blank">
+   <button class="LinkButton">GitHub
+   </button></a>
 <a href="https://www.youtube.com/@Ran_Dum" target="_blank">
-  <button class="LinkButton">YouTube</button>
-</a>
-<p></p>
+   <button class="LinkButton">YouTube</button></a>
 <a href="https://unassigned-studios.itch.io/" target="_blank">
-  <button class="LinkButton">Itch.io</button>
-</a>
+   <button class="LinkButton">Itch.io</button></a>
+<a href="https://roccomichel.com">
+  <button class="LinkButton">RoccoMichel.com</button></a>
+</p>
+</body>
 
-<p class="SubTest">Learning how to make a website since 2024</p>
