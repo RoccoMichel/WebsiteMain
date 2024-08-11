@@ -1,4 +1,4 @@
-.Header{
+    .Header{
     font-family: Arial;
     font-size: 30px;
     font-weight: bold;
@@ -8,6 +8,11 @@
    .SubTest{
     font-style: initial;
     font-family:Arial, Helvetica, sans-serif;
+   }
+
+   .Contacts{
+    font-style: initial;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    }
   
    .LinkButton{
