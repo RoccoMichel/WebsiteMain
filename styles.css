@@ -48,3 +48,40 @@
    .LinkButton:active{
     opacity: 0.6;
    }
+
+   .HomeButton{
+    font-weight: bolder;
+    background-color: black;
+    border-color: black;
+    color: white;
+    border-style: solid;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  
+    border-radius: 20px;
+    transition: opacity 0.2s, box-shadow 0.2s, padding-left 0.2s, padding-right 0.2s, padding-top 0.2s, padding-buttom 0.2s,
+    margin-left 0.2s, margin-right 0.2s, margin-top 0.2s, margin-buttom 0.2s;
+   }
+
+   .HomeButton:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+   }
+
+   .HomeButton:active{
+    opacity: 0.6;
+   }
