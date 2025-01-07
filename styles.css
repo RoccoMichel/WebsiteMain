@@ -85,3 +85,9 @@
    .HomeButton:active{
     opacity: 0.6;
    }
+
+   .AudioSource{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+   }
